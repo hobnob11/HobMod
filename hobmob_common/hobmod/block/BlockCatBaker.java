@@ -44,7 +44,7 @@ public class BlockCatBaker extends Block
         {
             if (this.powered && !par1World.isBlockIndirectlyGettingPowered(par2, par3, par4))
             {
-                par1World.scheduleBlockUpdate(par2, par3, par4, BlockIds.CATBAKER, 4);
+                par1World.setBlock(par2, par3, par4, BlockIds.CATBAKER, 0, 2);
                 mc.sndManager.stopAllSounds();
             }
             else if (!this.powered && par1World.isBlockIndirectlyGettingPowered(par2, par3, par4))
@@ -65,7 +65,7 @@ public class BlockCatBaker extends Block
         {
             if (this.powered && !par1World.isBlockIndirectlyGettingPowered(par2, par3, par4))
             {
-                par1World.scheduleBlockUpdate(par2, par3, par4, BlockIds.CATBAKER, 4);
+                par1World.setBlock(par2, par3, par4, BlockIds.CATBAKER, 0, 2);
                 mc.sndManager.stopAllSounds();
             }
             else if (!this.powered && par1World.isBlockIndirectlyGettingPowered(par2, par3, par4))
