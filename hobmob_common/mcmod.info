@@ -1,0 +1,17 @@
+[
+{
+  "modid": "hobmod",
+  "name": "Hob Mod",
+  "description": "HobModSwag.",
+  "version": "0.0.2",
+  "mcversion": "1.6.2",
+  "logoFile": "",
+  "url": "http://belarr.com/bakercat/",
+  "updateUrl": "",
+  "authors": ["Hobnob"],
+  "credits": "Pahimar, PorkMiner, #minecraftforge",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
